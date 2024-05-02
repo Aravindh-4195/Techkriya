@@ -1,0 +1,21 @@
+#row {
+  width: 98vw;
+  height: 97vh;
+  background-color: rgb(62, 60, 60);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.col {
+  width: 25vw;
+  height: 40vh;
+  background-color: rgb(40, 40, 41);
+  box-shadow: 5px 5px 15px 5px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.col a button {
+  margin: 50px auto;
+}

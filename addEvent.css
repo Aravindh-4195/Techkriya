@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(0, 0, 0, 0.822);
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.774);
+  margin-top: 5vw;
+  color: white;
+}
+form div {
+  width: 45vw;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

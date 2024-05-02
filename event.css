@@ -1,0 +1,110 @@
+. {
+  background-color: black;
+}
+#events {
+  background-color: rgba(0, 0, 0, 0.188);
+  height: 250vh;
+  width: 98vw;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.event {
+  height: 15vw;
+  width: 15vw;
+  margin: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid;
+  border-width: 10px;
+  border-color: lightgray;
+  border-style: outset;
+  transition: width 1s, height 1s;
+}
+.event:hover {
+  border-style: inset;
+  width: 17vw;
+  height: 17vw;
+}
+.a {
+  background-image: url(images/csea.jpeg);
+}
+.b {
+  background-image: url(images/ai\ and\ robotics.jpeg);
+}
+.c {
+  background-image: url(images/ecea.jpg);
+}
+.d {
+  background-image: url(images/e\ yantra.jpeg);
+}
+.e {
+  background-image: url(images/eea.png);
+}
+.f {
+  background-image: url(images/mea.jpeg);
+}
+.g {
+  background-image: url(images/cea.jpg);
+}
+.h {
+  background-image: url(images/chea.jpeg);
+}
+.i {
+  background-image: url(images/bea.jpeg);
+}
+.j {
+  background-image: url(images/taskForce.jpeg);
+}
+.k {
+  background-image: url(images/brindavanam.jpg);
+}
+.l {
+  background-image: url(images/graphicCafe.jpg);
+}
+.m {
+  background-image: url(images/chitram.jpg);
+}
+.n {
+  background-image: url(images/Dhwani.webp);
+}
+.o {
+  background-image: url(images/ieee.jpeg);
+}
+.p {
+  background-image: url(images/literary.jpeg);
+}
+.q {
+  background-image: url(images/logo.jpg);
+}
+.r {
+  background-image: url(images/photography.png);
+}
+.s {
+  background-image: url(images/phyedu.webp);
+}
+.t {
+  background-image: url(images/shresta.jpg);
+}
+#note {
+  margin-top: 3vh;
+  background-color: grey;
+  height: 5vw;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+}
+#eventMain {
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.778);
+}
